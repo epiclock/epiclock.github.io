@@ -4,8 +4,11 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
                 <p>Interested? Get in touch. </p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
+                <div>
+                <button type="button" class="btn btn-primary btn-lg contact-button">
+                <a class="contact-button" href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </button>
+              </div>
                 <!-- <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
                     <li>

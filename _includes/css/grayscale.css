@@ -36,6 +36,12 @@ p {
     line-height: 1.5;
 }
 
+.contact-button {
+  font-size: 24px;
+  color: black;
+  color: #fff;
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
