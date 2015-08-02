@@ -285,7 +285,7 @@ a:focus {
 .firststeps-section {
     width: 100%;
     padding: 100px 0;
-    color: #fff;
+    color: #d3d3d3;
     background: url(/img/array.png) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
